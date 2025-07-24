@@ -7,10 +7,10 @@
 #include <Servo.h>
 
 // WiFi and Telegram Bot
-const char* ssid = "YOUR_SSID";
-const char* password = "YOUR_PASSWORD";
-#define BOT_TOKEN "YOUR_TELEGRAM_BOT_TOKEN"
-#define CHAT_ID "YOUR_CHAT_ID"
+const char* ssid = "BAJPAI_2.4Ghz";  // YOUR_SSID
+const char* password = "44444422"; // YOUR_PASSWORD
+#define BOT_TOKEN "YOUR_TELEGRAM_BOT_TOKEN" // YOUR_TELEGRAM_BOT_TOKEN
+#define CHAT_ID "YOUR_CHAT_ID" // YOUR_CHAT_ID
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
